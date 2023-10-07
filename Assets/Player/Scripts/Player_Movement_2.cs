@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player_Movement : MonoBehaviour
+public class Player_Movement_2 : MonoBehaviour
 {
 
     private Player_Controls Player_Action_Controls;
@@ -45,7 +45,7 @@ public class Player_Movement : MonoBehaviour
 
     }
 
-    public void Jump()
+    private void Jump()
     {
         if (Is_Grounded())
         {
@@ -55,7 +55,7 @@ public class Player_Movement : MonoBehaviour
         }
     }
 
-    public bool Is_Grounded()
+    private bool Is_Grounded()
     {
         Vector2 Top_Left_Point = transform.position;
         Top_Left_Point.x -= Player_Collider.bounds.extents.x;
@@ -79,7 +79,7 @@ public class Player_Movement : MonoBehaviour
 
     }
 
-    public void Move()
+    private void Move()
     {
         // Read movement value, then move player.
         float Movement_Input = Player_Action_Controls.Gameplay.Movement.ReadValue<float>();
@@ -116,7 +116,7 @@ public class Player_Movement : MonoBehaviour
         }
     }
 
-    public void Dash_Increase()
+    private void Dash_Increase()
     {
         Move_Speed = Move_Speed * 1.3f;
         Player_Action_Controls.Gameplay.Dash.canceled += Context => Dash_Decrease();
