@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2718978224268854755}
   - component: {fileID: 6195846623449561971}
-  - component: {fileID: 3044882608820092527}
+  - component: {fileID: 89527534922582079}
   m_Layer: 0
   m_Name: PlayerInput
   m_TagString: Untagged
@@ -60,8 +60,8 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3044882608820092527}
-        m_TargetAssemblyTypeName: PlayerInputHandler, Assembly-CSharp
+      - m_Target: {fileID: 89527534922582079}
+        m_TargetAssemblyTypeName: Player_Input_Handler, Assembly-CSharp
         m_MethodName: OnMove
         m_Mode: 0
         m_Arguments:
@@ -74,12 +74,28 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: f9e621bf-c4d8-4871-bf24-9a2329778df2
     m_ActionName: 'Player/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/DualShock4GamepadHID/leftStick/up,/XInputControllerWindows/leftStick/up,/DualShock4GamepadHID/leftStick/down,/XInputControllerWindows/leftStick/down,/DualShock4GamepadHID/leftStick/left,/XInputControllerWindows/leftStick/left,/DualShock4GamepadHID/leftStick/right,/XInputControllerWindows/leftStick/right]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 89527534922582079}
+        m_TargetAssemblyTypeName: Player_Input_Handler, Assembly-CSharp
+        m_MethodName: OnJump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: b607539f-7282-472e-bfd4-04e807b87580
+    m_ActionName: 'Player/Jump[/DualShock4GamepadHID/buttonSouth,/XInputControllerWindows/buttonSouth]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &3044882608820092527
+--- !u!114 &89527534922582079
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,6 +104,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5841630615537322938}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f9a0fb122dbae343ad2164f1e867975, type: 3}
+  m_Script: {fileID: 11500000, guid: f006326511f6f5046b48b217042e4a08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -26,4 +26,12 @@ public class Player_Input_Handler : MonoBehaviour
             Player_Movement_Script.SetInputVector(moveInput);
         }
     }
+
+    public void OnJump(CallbackContext context)
+    {
+        if (Player_Movement_Script != null)
+        {
+            Player_Movement_Script.Jump();
+        }
+    }
 }
