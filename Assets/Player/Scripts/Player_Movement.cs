@@ -14,6 +14,7 @@ public class Player_Movement : MonoBehaviour
     private Animator Player_Animator;
     private SpriteRenderer Player_Sprite_Renderer;
 
+    [SerializeField] private int Player_Index;
     [SerializeField] private LayerMask Ground_Mask;
     [SerializeField] private float Move_Speed, Jump_Speed;
     [SerializeField] public int Life = 1;
@@ -43,6 +44,11 @@ public class Player_Movement : MonoBehaviour
         Player_Action_Controls.Gameplay.Dash.performed += Context => Dash_Increase();
         Player_Animator.SetBool("Is_Walking", false);
 
+    }
+
+    public int Grab_Player_Index()
+    {
+        return Player_Index;
     }
 
     public void Jump()
