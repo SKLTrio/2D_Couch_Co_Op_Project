@@ -76,7 +76,6 @@ public class Player_Movement_Script : MonoBehaviour
     {
         if (Is_Grounded())
         {
-            Debug.Log("Player has Jumped!");
             Rigid_Body.AddForce(Vector2.up * Jump_Height, ForceMode2D.Impulse);
             Player_Animator.SetTrigger("Jump");
         }

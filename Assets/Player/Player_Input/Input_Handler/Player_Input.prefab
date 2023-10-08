@@ -91,9 +91,21 @@ MonoBehaviour:
     m_ActionId: 6116ccb8-8947-4e85-a780-ebdbd560bd3e
     m_ActionName: 'Gameplay/Jump[/DualShock4GamepadHID/buttonSouth,/XInputControllerWindows/buttonSouth]'
   - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 7a565b51-aab7-4be8-affa-014d76e4aae7
-    m_ActionName: Gameplay/Dash
+      m_Calls:
+      - m_Target: {fileID: 89527534922582079}
+        m_TargetAssemblyTypeName: Player_Input_Handler, Assembly-CSharp
+        m_MethodName: OnInteract
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 5d6be94a-d07b-4b8b-bcfd-2c36f62a7cf4
+    m_ActionName: 'Gameplay/Interact[/DualShock4GamepadHID/leftTrigger,/XInputControllerWindows/leftTrigger]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay
