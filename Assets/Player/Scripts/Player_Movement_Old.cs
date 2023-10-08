@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player_Movement : MonoBehaviour
+public class Player_Movement_Old : MonoBehaviour
 {
 
     private Player_Controls Player_Action_Controls;

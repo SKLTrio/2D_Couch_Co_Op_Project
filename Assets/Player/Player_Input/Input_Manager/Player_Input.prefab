@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6195846623449561971}
   - component: {fileID: 89527534922582079}
   m_Layer: 0
-  m_Name: PlayerInput
+  m_Name: Player_Input
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 8a31dc31770ca5f4b89d7ba33abb2362, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: 777c71eca486fc94bacd41ca65d4b51a, type: 3}
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -72,8 +72,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: f9e621bf-c4d8-4871-bf24-9a2329778df2
-    m_ActionName: 'Player/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/DualShock4GamepadHID/leftStick/up,/XInputControllerWindows/leftStick/up,/DualShock4GamepadHID/leftStick/down,/XInputControllerWindows/leftStick/down,/DualShock4GamepadHID/leftStick/left,/XInputControllerWindows/leftStick/left,/DualShock4GamepadHID/leftStick/right,/XInputControllerWindows/leftStick/right]'
+    m_ActionId: a2cd1e1e-7661-4d0e-b5b2-03a8cbb3f395
+    m_ActionName: 'Gameplay/Movement[/DualShock4GamepadHID/leftStick/up,/XInputControllerWindows/leftStick/up,/DualShock4GamepadHID/leftStick/down,/XInputControllerWindows/leftStick/down,/DualShock4GamepadHID/leftStick/left,/XInputControllerWindows/leftStick/left,/DualShock4GamepadHID/leftStick/right,/XInputControllerWindows/leftStick/right]'
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 89527534922582079}
@@ -88,11 +88,15 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: b607539f-7282-472e-bfd4-04e807b87580
-    m_ActionName: 'Player/Jump[/DualShock4GamepadHID/buttonSouth,/XInputControllerWindows/buttonSouth]'
+    m_ActionId: 6116ccb8-8947-4e85-a780-ebdbd560bd3e
+    m_ActionName: 'Gameplay/Jump[/DualShock4GamepadHID/buttonSouth,/XInputControllerWindows/buttonSouth]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7a565b51-aab7-4be8-affa-014d76e4aae7
+    m_ActionName: Gameplay/Dash
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!114 &89527534922582079

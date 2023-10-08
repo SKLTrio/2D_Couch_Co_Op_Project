@@ -15,7 +15,7 @@ public class Player_Input_Handler : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
         var Player_Movement = FindObjectsOfType<Player_Movement_Script>();
         var index = playerInput.playerIndex;
-        Player_Movement_Script = Player_Movement.FirstOrDefault(m => m.GetPlayerIndex() == index);
+        Player_Movement_Script = Player_Movement.FirstOrDefault(m => m.Get_Player_Index() == index);
     }
 
     public void OnMove(CallbackContext context)
@@ -23,7 +23,7 @@ public class Player_Input_Handler : MonoBehaviour
         if (Player_Movement_Script != null)
         {
             Vector2 moveInput = context.ReadValue<Vector2>();
-            Player_Movement_Script.SetInputVector(moveInput);
+            Player_Movement_Script.Set_Input_Vector(moveInput);
         }
     }
 
