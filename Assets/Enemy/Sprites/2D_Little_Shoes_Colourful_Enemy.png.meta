@@ -1,0 +1,862 @@
+fileFormatVersion: 2
+guid: 21de18a5b35399d4e8ccfaaa46df1550
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2807787290635404701
+    second: 2D_Little_Shoes_Colourful_Enemy_0
+  - first:
+      213: 1156726087869454680
+    second: 2D_Little_Shoes_Colourful_Enemy_1
+  - first:
+      213: 3329988770697712638
+    second: 2D_Little_Shoes_Colourful_Enemy_2
+  - first:
+      213: -158340629681458043
+    second: 2D_Little_Shoes_Colourful_Enemy_3
+  - first:
+      213: 3221139568325063541
+    second: 2D_Little_Shoes_Colourful_Enemy_4
+  - first:
+      213: 7821822005704938689
+    second: 2D_Little_Shoes_Colourful_Enemy_5
+  - first:
+      213: 4957113842775616085
+    second: 2D_Little_Shoes_Colourful_Enemy_6
+  - first:
+      213: -8402079907754950761
+    second: 2D_Little_Shoes_Colourful_Enemy_7
+  - first:
+      213: 3615716671733226943
+    second: 2D_Little_Shoes_Colourful_Enemy_8
+  - first:
+      213: -2806853701520700234
+    second: 2D_Little_Shoes_Colourful_Enemy_9
+  - first:
+      213: 3632458910382311170
+    second: 2D_Little_Shoes_Colourful_Enemy_10
+  - first:
+      213: -7551731795461937114
+    second: 2D_Little_Shoes_Colourful_Enemy_11
+  - first:
+      213: 2917387990431696945
+    second: 2D_Little_Shoes_Colourful_Enemy_12
+  - first:
+      213: 4774224184232029697
+    second: 2D_Little_Shoes_Colourful_Enemy_13
+  - first:
+      213: -1685177086481428461
+    second: 2D_Little_Shoes_Colourful_Enemy_14
+  - first:
+      213: -6425031579812898726
+    second: 2D_Little_Shoes_Colourful_Enemy_15
+  - first:
+      213: -2238561960458972805
+    second: 2D_Little_Shoes_Colourful_Enemy_16
+  - first:
+      213: -8841677487714147664
+    second: 2D_Little_Shoes_Colourful_Enemy_17
+  - first:
+      213: -8831481450887282379
+    second: 2D_Little_Shoes_Colourful_Enemy_18
+  - first:
+      213: 992384546863867432
+    second: 2D_Little_Shoes_Colourful_Enemy_19
+  - first:
+      213: 2704793107246152313
+    second: 2D_Little_Shoes_Colourful_Enemy_20
+  - first:
+      213: 1624229487718707136
+    second: 2D_Little_Shoes_Colourful_Enemy_21
+  - first:
+      213: -5095040331761198627
+    second: 2D_Little_Shoes_Colourful_Enemy_22
+  - first:
+      213: 8410386693434115941
+    second: 2D_Little_Shoes_Colourful_Enemy_23
+  - first:
+      213: -6224758531492178955
+    second: 2D_Little_Shoes_Colourful_Enemy_24
+  - first:
+      213: 3831314469260829694
+    second: 2D_Little_Shoes_Colourful_Enemy_25
+  - first:
+      213: -690875856262611054
+    second: 2D_Little_Shoes_Colourful_Enemy_26
+  - first:
+      213: 59973008124966801
+    second: 2D_Little_Shoes_Colourful_Enemy_27
+  - first:
+      213: 2920535226212139216
+    second: 2D_Little_Shoes_Colourful_Enemy_28
+  - first:
+      213: -2308250806152791049
+    second: 2D_Little_Shoes_Colourful_Enemy_29
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36af1d0e55cb809d0800000000000000
+      internalID: -2807787290635404701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859d2e19f348d0010800000000000000
+      internalID: 1156726087869454680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef31a77d42f763e20800000000000000
+      internalID: 3329988770697712638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584335649067dcdf0800000000000000
+      internalID: -158340629681458043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57378fdfe59c3bc20800000000000000
+      internalID: 3221139568325063541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c450622ca1bc8c60800000000000000
+      internalID: 7821822005704938689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55aefcda6c43bc440800000000000000
+      internalID: 4957113842775616085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fb1db07d0d56b80800000000000000
+      internalID: -8402079907754950761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbddd13f72b9d2230800000000000000
+      internalID: 3615716671733226943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc4e580e6d0c09d0800000000000000
+      internalID: -2806853701520700234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2074a862226196230800000000000000
+      internalID: 3632458910382311170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628e77c51fbd23790800000000000000
+      internalID: -7551731795461937114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1380ca99be4ac7820800000000000000
+      internalID: 2917387990431696945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10eaa33c993714240800000000000000
+      internalID: 4774224184232029697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31095a84e5c0d98e0800000000000000
+      internalID: -1685177086481428461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58d596c1d3b5d6a0800000000000000
+      internalID: -6425031579812898726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b711423e1c70fe0e0800000000000000
+      internalID: -2238561960458972805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2ea3e8b2d0c4580800000000000000
+      internalID: -8841677487714147664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531896f5966407580800000000000000
+      internalID: -8831481450887282379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826686ccc78a5cd00800000000000000
+      internalID: 992384546863867432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97af45c100b598520800000000000000
+      internalID: 2704793107246152313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf20311d1c6a8610800000000000000
+      internalID: 1624229487718707136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9d51d10d7ca49b0800000000000000
+      internalID: -5095040331761198627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56700d53322b7b470800000000000000
+      internalID: 8410386693434115941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f393d588173d99a0800000000000000
+      internalID: -6224758531492178955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef32b1be5309b2530800000000000000
+      internalID: 3831314469260829694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fb293b1148966f0800000000000000
+      internalID: -690875856262611054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1977665122115d000800000000000000
+      internalID: 59973008124966801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0c3688053d78820800000000000000
+      internalID: 2920535226212139216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D_Little_Shoes_Colourful_Enemy_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbf0c61f1277ffd0800000000000000
+      internalID: -2308250806152791049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 28150c8b53a25b9408aa513474f31bc0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      2D_Little_Shoes_Colourful_Enemy_0: -2807787290635404701
+      2D_Little_Shoes_Colourful_Enemy_1: 1156726087869454680
+      2D_Little_Shoes_Colourful_Enemy_10: 3632458910382311170
+      2D_Little_Shoes_Colourful_Enemy_11: -7551731795461937114
+      2D_Little_Shoes_Colourful_Enemy_12: 2917387990431696945
+      2D_Little_Shoes_Colourful_Enemy_13: 4774224184232029697
+      2D_Little_Shoes_Colourful_Enemy_14: -1685177086481428461
+      2D_Little_Shoes_Colourful_Enemy_15: -6425031579812898726
+      2D_Little_Shoes_Colourful_Enemy_16: -2238561960458972805
+      2D_Little_Shoes_Colourful_Enemy_17: -8841677487714147664
+      2D_Little_Shoes_Colourful_Enemy_18: -8831481450887282379
+      2D_Little_Shoes_Colourful_Enemy_19: 992384546863867432
+      2D_Little_Shoes_Colourful_Enemy_2: 3329988770697712638
+      2D_Little_Shoes_Colourful_Enemy_20: 2704793107246152313
+      2D_Little_Shoes_Colourful_Enemy_21: 1624229487718707136
+      2D_Little_Shoes_Colourful_Enemy_22: -5095040331761198627
+      2D_Little_Shoes_Colourful_Enemy_23: 8410386693434115941
+      2D_Little_Shoes_Colourful_Enemy_24: -6224758531492178955
+      2D_Little_Shoes_Colourful_Enemy_25: 3831314469260829694
+      2D_Little_Shoes_Colourful_Enemy_26: -690875856262611054
+      2D_Little_Shoes_Colourful_Enemy_27: 59973008124966801
+      2D_Little_Shoes_Colourful_Enemy_28: 2920535226212139216
+      2D_Little_Shoes_Colourful_Enemy_29: -2308250806152791049
+      2D_Little_Shoes_Colourful_Enemy_3: -158340629681458043
+      2D_Little_Shoes_Colourful_Enemy_4: 3221139568325063541
+      2D_Little_Shoes_Colourful_Enemy_5: 7821822005704938689
+      2D_Little_Shoes_Colourful_Enemy_6: 4957113842775616085
+      2D_Little_Shoes_Colourful_Enemy_7: -8402079907754950761
+      2D_Little_Shoes_Colourful_Enemy_8: 3615716671733226943
+      2D_Little_Shoes_Colourful_Enemy_9: -2806853701520700234
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

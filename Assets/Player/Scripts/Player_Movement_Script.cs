@@ -18,6 +18,9 @@ public class Player_Movement_Script : MonoBehaviour
     [SerializeField]
     private int Player_Index = 0;
 
+    [SerializeField] 
+    public ParticleSystem Dust;
+
     private Rigidbody2D Rigid_Body;
     private Collider2D Player_Collider;
 
@@ -59,11 +62,13 @@ public class Player_Movement_Script : MonoBehaviour
         {
             Player_Sprite_Renderer.flipX = false;
             Player_Animator.SetBool("Is_Walking", true);
+            Dust.Play();
         }
         if (moveDirection.x < 0)
         {
             Player_Sprite_Renderer.flipX = true;
             Player_Animator.SetBool("Is_Walking", true);
+            Dust.Play();
         }
 
         if (moveDirection.x == 0)
@@ -78,6 +83,7 @@ public class Player_Movement_Script : MonoBehaviour
         {
             Rigid_Body.AddForce(Vector2.up * Jump_Height, ForceMode2D.Impulse);
             Player_Animator.SetTrigger("Jump");
+            Dust.Play();
         }
     }
 

@@ -14,11 +14,19 @@ public class Player_Input_Handler : MonoBehaviour
     private void Awake()
     {
         Player_Input = GetComponent<PlayerInput>();
+    }
+
+    private void Start()
+    {
+        // You can keep this part for later initialization if needed.
+        // For now, just get references to the other components.
         Button_Behaviour_Script = GetComponent<Button_Behaviour>();
         var Player_Movement = FindObjectsOfType<Player_Movement_Script>();
-        var index = Player_Input.playerIndex;
+        var index = Player_Input ? Player_Input.playerIndex : -1;
         Player_Movement_Script = Player_Movement.FirstOrDefault(m => m.Get_Player_Index() == index);
     }
+
+
 
     public void OnMove(CallbackContext Context)
     {

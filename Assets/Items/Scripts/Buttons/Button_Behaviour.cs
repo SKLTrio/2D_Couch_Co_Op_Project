@@ -9,6 +9,11 @@ public class Button_Behaviour : MonoBehaviour
 {
     private Player_Controls Player_Action_Controls;
     public TextMeshPro Button_Text;
+
+    [SerializeField] public SpriteRenderer Button_Sprite;
+    [SerializeField] public Sprite Button_Pushed_Sprite;
+    [SerializeField] public GameObject Wall;
+
     private bool Player_In_Range = false;
 
     private void Awake()
@@ -19,6 +24,17 @@ public class Button_Behaviour : MonoBehaviour
     private void Start()
     {
         Button_Text.gameObject.SetActive(false);
+        Wall.SetActive(true);
+    }
+
+    private void OnEnable()
+    {
+        Player_Action_Controls.Gameplay.Enable();
+    }
+
+    private void OnDisable()
+    {
+        Player_Action_Controls.Gameplay.Enable();
     }
 
     private void Update()
@@ -33,7 +49,6 @@ public class Button_Behaviour : MonoBehaviour
     {
         if (Collider.CompareTag("Player"))
         {
-            Debug.Log("Player has entered!");
             Player_In_Range = true;
             Button_Text.gameObject.SetActive(true);
         }
@@ -43,7 +58,6 @@ public class Button_Behaviour : MonoBehaviour
     {
         if (Collider.CompareTag("Player"))
         {
-            Debug.Log("Player has exited!");
             Player_In_Range = false;
             Button_Text.gameObject.SetActive(false);
         }
@@ -51,6 +65,10 @@ public class Button_Behaviour : MonoBehaviour
 
     public void Button_Interact()
     {
-        Debug.Log("I am a Button!\n You pushed Me!");
+        if (Button_Sprite != null)
+        {
+            Button_Sprite.sprite = Button_Pushed_Sprite;
+            Wall.SetActive(false);
+        }
     }
 }
