@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Player_Health_Script : MonoBehaviour
 {
     [SerializeField] public int Lives;
+    //make colliders for object enemy purple tag instead.
 
     private void OnTriggerEnter2D(Collider2D Collider)
     {
