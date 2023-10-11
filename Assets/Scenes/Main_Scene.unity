@@ -134,10 +134,9 @@ GameObject:
   - component: {fileID: 231804560}
   - component: {fileID: 231804559}
   - component: {fileID: 231804558}
-  - component: {fileID: 231804557}
   m_Layer: 0
   m_Name: Blue_Enemy_#1
-  m_TagString: Enemy_Blue
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,21 +156,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1885197899}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &231804557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231804555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b23d5a3bd2be77a47ae4ad901778e663, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Enemy_Damage_Player_Box_Collider: {fileID: 0}
-  Enemy_Killed_Box_Collider: {fileID: 0}
-  Player_Jump_Boost_Value: 5
 --- !u!114 &231804558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -999,7 +983,7 @@ GameObject:
   - component: {fileID: 543243712}
   - component: {fileID: 543243713}
   m_Layer: 0
-  m_Name: Enemy_Death_Collider
+  m_Name: Head_Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1075,9 +1059,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 543243710}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c37e9a0e69d13a42b63f85a9b83fedb, type: 3}
+  m_Script: {fileID: 11500000, guid: b23d5a3bd2be77a47ae4ad901778e663, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Enemy_Parent_Object: {fileID: 1670136369}
   Player_Jump_Boost_Value: 5
 --- !u!1 &598453045
 GameObject:
@@ -13764,75 +13749,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &1197141059
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1197141060}
-  - component: {fileID: 1197141061}
-  - component: {fileID: 1197141062}
-  m_Layer: 0
-  m_Name: Enemy_Damage_Collider
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1197141060
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197141059}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1670136370}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1197141061
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197141059}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.45
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1197141062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197141059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b23d5a3bd2be77a47ae4ad901778e663, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Enemy_Damage_Player_Box_Collider: {fileID: 0}
-  Enemy_Killed_Box_Collider: {fileID: 0}
-  Player_Jump_Boost_Value: 5
 --- !u!1 &1249511871
 GameObject:
   m_ObjectHideFlags: 0
@@ -26960,7 +26876,6 @@ GameObject:
   - component: {fileID: 1583897233}
   - component: {fileID: 1583897232}
   - component: {fileID: 1583897231}
-  - component: {fileID: 1583897230}
   m_Layer: 0
   m_Name: Purple_Enemy_#2
   m_TagString: Enemy_Purple
@@ -26983,21 +26898,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1885197899}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1583897230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583897228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b23d5a3bd2be77a47ae4ad901778e663, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Enemy_Damage_Player_Box_Collider: {fileID: 0}
-  Enemy_Killed_Box_Collider: {fileID: 0}
-  Player_Jump_Boost_Value: 5
 --- !u!114 &1583897231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27182,11 +27082,12 @@ GameObject:
   - component: {fileID: 1670136370}
   - component: {fileID: 1670136372}
   - component: {fileID: 1670136373}
-  - component: {fileID: 1670136374}
   - component: {fileID: 1670136376}
+  - component: {fileID: 1670136374}
+  - component: {fileID: 1670136375}
   m_Layer: 0
   m_Name: Purple_Enemy_#1
-  m_TagString: Enemy_Purple
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27205,7 +27106,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 543243711}
-  - {fileID: 1197141060}
   m_Father: {fileID: 1885197899}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1670136372
@@ -27299,7 +27199,7 @@ MonoBehaviour:
   Enemy_Animator: {fileID: 1670136373}
   Enemy_Sprite: {fileID: 1670136372}
   Move_Speed: 2
---- !u!114 &1670136376
+--- !u!114 &1670136375
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27308,12 +27208,56 @@ MonoBehaviour:
   m_GameObject: {fileID: 1670136369}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b23d5a3bd2be77a47ae4ad901778e663, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c37e9a0e69d13a42b63f85a9b83fedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy_Damage_Player_Box_Collider: {fileID: 0}
-  Enemy_Killed_Box_Collider: {fileID: 0}
-  Player_Jump_Boost_Value: 5
+  Enemy_Colour: Purple
+--- !u!61 &1670136376
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670136369}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.2, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1711580532
 GameObject:
   m_ObjectHideFlags: 0
@@ -27866,6 +27810,84 @@ Transform:
   - {fileID: 1780509158}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1878958841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1878958842}
+  - component: {fileID: 1878958843}
+  m_Layer: 0
+  m_Name: Player_#1_Foot_Collider
+  m_TagString: Player_Feet
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1878958842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878958841}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2023227195}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1878958843
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878958841}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.5}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.25, y: 0.5}
+  m_EdgeRadius: 0
 --- !u!1 &1885197898
 GameObject:
   m_ObjectHideFlags: 0
@@ -38011,6 +38033,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1352491013}
+  - {fileID: 1878958842}
   - {fileID: 1989976619}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

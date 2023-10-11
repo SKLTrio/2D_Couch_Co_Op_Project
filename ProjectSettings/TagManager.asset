@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy_Purple
-  - Enemy_Blue
+  - Player_Feet
   layers:
   - Default
   - TransparentFX
