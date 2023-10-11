@@ -8,12 +8,16 @@ public class Enemy_Head : MonoBehaviour
     public GameObject Enemy_Parent_Object;
 
     [SerializeField]
+    public BoxCollider2D Enemy_Body_Collider;
+
+    [SerializeField]
     private float Player_Jump_Boost_Value;
 
     private void OnTriggerEnter2D(Collider2D Collider)
     {
         if (Collider.CompareTag("Player_Feet"))
         {
+            //Enemy_Body_Collider.enabled = false;
             Player_Health_Script Player_Health = Collider.transform.parent.GetComponent<Player_Health_Script>();
             Rigidbody2D Player_Rigid_Body = Collider.transform.parent.GetComponent<Rigidbody2D>();
 
