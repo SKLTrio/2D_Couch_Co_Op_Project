@@ -18,23 +18,30 @@ public class Enemy_Body : MonoBehaviour
 
             if (Player_Health != null)
             {
-                if (Enemy_Colour == "Purple")
+                if (Enemy_Colour == "Purple" && Player_Health.Player_Colour == "Purple")
                 {
                     Player_Health.Lives -= 1;
                     Debug.Log("1 Life Taken!");
                 }
 
-                else if (Enemy_Colour == "Blue")
-                {
-                    Player_Health.Lives -= 1;
-                    Debug.Log("1 Life Taken");
-                }
-
-                else
+                else if (Enemy_Colour == "Blue" && Player_Health.Player_Colour == "Purple")
                 {
                     Player_Health.Lives = 0;
-                    SceneManager.LoadScene("Main_Scene");
+                    Debug.Log("All Lives Taken");
                 }
+
+                else if (Enemy_Colour == "Purple" && Player_Health.Player_Colour == "Blue")
+                {
+                    Player_Health.Lives = 0;
+                    Debug.Log("All Lives Taken");
+                }
+
+                else if (Enemy_Colour == "Blue" && Player_Health.Player_Colour == "Blue")
+                {
+                    Player_Health.Lives -= 1;
+                    Debug.Log("1 Life Taken!");
+                }
+
             }
 
             else

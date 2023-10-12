@@ -8,6 +8,9 @@ using UnityEngine.SceneManagement;
 public class Player_Health_Script : MonoBehaviour
 {
     [SerializeField]
+    public string Player_Colour;
+
+    [SerializeField]
     public int Lives;
 
     [SerializeField]
